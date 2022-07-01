@@ -1,0 +1,60 @@
+
+  .circulo{
+    background-color: blue;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  /* IMPORTANTE */
+  text-align: center;
+    }
+    
+  
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #b1b1b1;
+}
+.card {
+
+ 
+ width: 500px;
+  border-radius: 18px;
+  background: rgb(225, 209, 209);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+justify-content: baseline;
+    align-items:center;
+
+}
+
+
+
+
+    .img{
+     
+      width: 150px;
+      height: 150px;
+      border-radius: 45%;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+
+    .buton {
+      position: relative;
+      width: 10em;
+      height: 3em;
+      border: solid 1px gray;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #A491D2 ;
+      cursor: pointer;
+      color: white;
+    }
